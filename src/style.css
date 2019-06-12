@@ -1,0 +1,14 @@
+.created-dice-box {
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px gray;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.delete-button {
+    color: red;
+    cursor: pointer;
+    width: 6%;
+    margin-left: 90%;
+}
