@@ -1,0 +1,88 @@
+.created-dice-box {
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px gray;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background: rgb(224, 217, 217);
+}
+
+.delete-button {
+    color: red;
+    cursor: pointer;
+    width: 6%;
+    margin-left: 90%;
+}
+
+.landing-img {
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px gray;
+    width: 200px;
+}
+
+.landing-img:hover {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+}
+
+.landing-body {
+    background: #ffeccf;
+}
+
+#yahtzee-body {
+    background: linear-gradient(rgb(156, 0, 0), orange, rgb(255, 255, 255));
+    height: 150vh;
+}
+
+#yahtzee-title {
+    letter-spacing: 4px; 
+    color: rgb(248, 255, 189);
+    border-bottom: 5px solid orange;
+    width: 40%;
+    margin: auto;
+}
+
+#dragons-body {
+    height: 240vh;
+    background: linear-gradient(wheat, rgb(85, 15, 15));
+}
+
+#risk-body {
+    height: 170vh;
+    background: linear-gradient(maroon, white)
+}
+
+#risk-title {
+    font-weight: bold;
+    color: rgb(255, 234, 234);
+    border-bottom: 1px solid rgb(255, 234, 234);
+    width: 40%;
+    margin: auto;
+}
+
+#custom-body {
+    background: rgb(248, 210, 255);
+}
+
+@media (min-width: 500px) {
+    .created-dice-box {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    #dice-box, .landing-grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    #dice-box, .landing-grid-container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
