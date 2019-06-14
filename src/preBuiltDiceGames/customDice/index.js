@@ -1,4 +1,4 @@
-import { Dicebox } from '../Dicebox/dicebox';
+import { Dicebox } from '../../../Dicebox/dicebox';
 
 
 const app = {

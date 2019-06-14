@@ -12,3 +12,25 @@
     width: 6%;
     margin-left: 90%;
 }
+
+.landing-img {
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px gray;
+    width: 200px;
+}
+
+.landing-img:hover {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+}
+
+.landing-body {
+    background: #ffeccf;
+}
+
+@media (min-width: 700px) {
+    .created-dice-box {
+        width: 50%;
+    }
+}
